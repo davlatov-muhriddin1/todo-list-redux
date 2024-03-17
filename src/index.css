@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+input {
+  padding: 5px !important;
+  outline: none !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+}
+
+.empty img {
+  height: 550px;
+}
